@@ -69,6 +69,7 @@ namespace DataAccessTier
     public object ExecuteScalarQuery(string sql)
     {
 
+      //Open connection to database
       SqlConnection dbConn;
       dbConn = new SqlConnection(_DBConnectionInfo);
       dbConn.Open();
@@ -80,8 +81,10 @@ namespace DataAccessTier
       dbCmd.Connection = dbConn;
       dbCmd.CommandText = sql;
 
+      //Execute scalar query
       result = dbCmd.ExecuteScalar();
 
+      //Close connection
       dbConn.Close();
 
       return result;
@@ -95,7 +98,7 @@ namespace DataAccessTier
     //
     public DataSet ExecuteNonScalarQuery(string sql)
     {
-
+        //Open connection to database
         SqlConnection dbConn;
         dbConn = new SqlConnection(_DBConnectionInfo);
         dbConn.Open();
@@ -104,11 +107,13 @@ namespace DataAccessTier
         dbCmd = new SqlCommand();
         dbCmd.Connection = dbConn;
 
+        //Execute non scalar query
         SqlDataAdapter adapter = new SqlDataAdapter(dbCmd);
         DataSet ds = new DataSet();
         dbCmd.CommandText = sql;
         adapter.Fill(ds);
 
+        //Close connection
         dbConn.Close();
 
         return ds;
@@ -120,7 +125,7 @@ namespace DataAccessTier
     //
     public int ExecuteActionQuery(string sql)
     {
-
+        //Open connection
         SqlConnection dbConn;
         dbConn = new SqlConnection(_DBConnectionInfo);
         dbConn.Open();
@@ -132,8 +137,10 @@ namespace DataAccessTier
         dbCmd.Connection = dbConn;
         dbCmd.CommandText = sql;
 
+        //Execute action query
         result = dbCmd.ExecuteNonQuery();
 
+        //Close connection
         dbConn.Close();
 
         return result;

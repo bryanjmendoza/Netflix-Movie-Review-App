@@ -16,3 +16,12 @@ C:\Users\Bryan\Documents\cs341\NetflixApp\NetflixApp\NetflixApp\obj\Debug\Netfli
 C:\Users\Bryan\Documents\cs341\NetflixApp\NetflixApp\NetflixApp\obj\Debug\NetflixApp.Form1.resources
 C:\Users\Bryan\Documents\cs341\NetflixApp\NetflixApp\NetflixApp\obj\Debug\NetflixApp.Properties.Resources.resources
 C:\Users\Bryan\Documents\cs341\NetflixApp\NetflixApp\NetflixApp\obj\Debug\NetflixApp.csproj.GenerateResource.Cache
+C:\Users\Bryan\Documents\GitHub\Netflix-Movie-Review-App\NetflixApp\NetflixApp\bin\Debug\NetflixApp.exe.config
+C:\Users\Bryan\Documents\GitHub\Netflix-Movie-Review-App\NetflixApp\NetflixApp\obj\Debug\NetflixApp.exe
+C:\Users\Bryan\Documents\GitHub\Netflix-Movie-Review-App\NetflixApp\NetflixApp\obj\Debug\NetflixApp.pdb
+C:\Users\Bryan\Documents\GitHub\Netflix-Movie-Review-App\NetflixApp\NetflixApp\bin\Debug\NetflixApp.exe
+C:\Users\Bryan\Documents\GitHub\Netflix-Movie-Review-App\NetflixApp\NetflixApp\bin\Debug\NetflixApp.pdb
+C:\Users\Bryan\Documents\GitHub\Netflix-Movie-Review-App\NetflixApp\NetflixApp\obj\Debug\NetflixApp.csprojResolveAssemblyReference.cache
+C:\Users\Bryan\Documents\GitHub\Netflix-Movie-Review-App\NetflixApp\NetflixApp\obj\Debug\NetflixApp.Form1.resources
+C:\Users\Bryan\Documents\GitHub\Netflix-Movie-Review-App\NetflixApp\NetflixApp\obj\Debug\NetflixApp.Properties.Resources.resources
+C:\Users\Bryan\Documents\GitHub\Netflix-Movie-Review-App\NetflixApp\NetflixApp\obj\Debug\NetflixApp.csproj.GenerateResource.Cache
